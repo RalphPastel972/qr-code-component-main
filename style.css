@@ -1,0 +1,68 @@
+body {
+  background: lightgrey;
+  display: grid;
+  place-content: center;
+}
+
+.Carte_de_QR_Code {
+  height: 497px;
+  width: 320px;
+  background: white;
+  border-radius: 20px;
+  display: grid;
+  justify-items: center;
+}
+
+.QR_Code_container {
+  height: 288px;
+  aspect-ratio: 1;
+  padding: 16px;
+}
+
+#QR_code_image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.Text_below_QR_Code {
+  height: 129px;
+  width: 288px;
+}
+
+.title {
+  color: #1f314f;
+  text-align: center;
+
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 56px / 2 - 36.5px);
+
+  /* Heading */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.description {
+  padding: 16px;
+  margin: 2px;
+
+  height: 57px;
+  left: 5.56%;
+  right: 5.56%;
+  top: calc(50% - 57px / 2 + 36px);
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+
+  color: #7d889e;
+}
