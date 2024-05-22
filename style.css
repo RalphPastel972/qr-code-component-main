@@ -7,7 +7,7 @@ body {
 }
 
 .Carte_de_QR_Code {
-  height: 497px;
+  height: fit-content;
   width: 320px;
   background: white;
   border-radius: 20px;
@@ -29,11 +29,11 @@ body {
 }
 
 .Text_below_QR_Code {
-  height: 129px;
+  height: fit-content;
   width: 288px;
 }
 
-.title {
+.title h1 {
   color: #1f314f;
   text-align: center;
 
